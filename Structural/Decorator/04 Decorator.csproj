@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <AssemblyName>Decorator</AssemblyName>
+    <RootNamespace>Decorator</RootNamespace>
+  </PropertyGroup>
+
+</Project>

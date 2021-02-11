@@ -1,0 +1,4 @@
+﻿
+Seprate the construction of a complex object from its representation.
+
+for creating complex objects that have multiple parts.
