@@ -1,9 +1,0 @@
-﻿
-Ensure a class hass only one instance and provide a global point of access to it.
-
-private constructor
-private static field
-public static property or method
-
-Thread Safe
-Lazy in .Net

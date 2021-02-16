@@ -4,7 +4,7 @@ namespace Proxy
 {
     class Program
     {
-        //Provide a placeholder for another ovject to control access to it.
+        //Provide a placeholder for another object to control access to it.
         static void Main(string[] _)
         {
             var door = new SecretDoor(new WoodDoor());

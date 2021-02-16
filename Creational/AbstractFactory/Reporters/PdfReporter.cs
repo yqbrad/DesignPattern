@@ -1,6 +1,4 @@
-﻿using AbstractFactory;
-
-namespace FactoryMethod.Reporters
+﻿namespace AbstractFactory.Reporters
 {
     public class PdfReporter : IReporter
     {

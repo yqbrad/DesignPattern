@@ -4,7 +4,9 @@ namespace Adapter
 {
     class Program
     {
-        static void Main(string[] args)
+        //Convert the interface of a class into another interface expect.
+        //Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
+        static void Main(string[] _)
         {
             IMemory camera = new CameraMemory();
 

@@ -1,3 +1,0 @@
-﻿
-Define an intrface for creating an object, but lest subclasses decide wich class to instantiate.
-

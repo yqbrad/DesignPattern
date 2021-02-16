@@ -4,6 +4,14 @@ namespace Singleton
 {
     class Program
     {
+        //Ensure a class has only one instance and provide a global point of access to it.
+
+        //private constructor
+        //private static field
+        //public static property or method
+
+        //    Thread Safe
+        //    Lazy in .Net
         static void Main(string[] _)
         {
             //Method1();

@@ -2,8 +2,9 @@
 
 namespace AbstractFactory
 {
-    class Program
+    public class Program
     {
+        //Provide an interface for creating families of related objects without specifying their concrete classes.
         static void Main(string[] _)
         {
             IReportFactory xmlReportFactory = new XmlReportFactory();

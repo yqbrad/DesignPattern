@@ -1,4 +1,4 @@
-﻿using FactoryMethod.Reporters;
+﻿using AbstractFactory.Reporters;
 
 namespace AbstractFactory
 {
