@@ -4,15 +4,16 @@ namespace Decorator
 {
     class Program
     {
-        //Attach additional responsibilieties to an object dynamically.
+        //Attach additional responsibilities to an object dynamically.
         //Decorators provide a flexible alternative to subclassing for extending functionality.
+        //اضافه کردن عملکرد جدید به آبجکت
         static void Main(string[] _)
         {
-            var service = new PostService(new SqlPostRepository());
-            service.CreatePost("Sql Post");
+            IComponent component = new Component();
+            IComponent decorator = new ComponentUppercaseDecorator(component);
 
-            var service2 = new PostService(new MongodbPostRepository());
-            service2.CreatePost("Mongo Post");
+            Console.WriteLine(decorator.GetInfo());
+            Console.ReadLine();
 
             Console.ReadLine();
         }
