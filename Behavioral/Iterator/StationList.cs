@@ -5,7 +5,7 @@ namespace Iterator
 {
     public class StationList: IEnumerable<RadioStation>
     {
-        private List<RadioStation> _stations = new List<RadioStation>();
+        private List<RadioStation> _stations = new();
 
         public void AddStation(RadioStation station) => _stations.Add(station);
 

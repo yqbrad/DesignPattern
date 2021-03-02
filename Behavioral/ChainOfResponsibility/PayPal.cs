@@ -2,9 +2,6 @@
 {
     public class PayPal: Account
     {
-        public PayPal()
-        {
-            Value = 200;
-        }
+        public PayPal() => Value = 200;
     }
 }

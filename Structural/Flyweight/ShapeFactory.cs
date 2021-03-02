@@ -5,7 +5,7 @@ namespace Flyweight
 {
     public class ShapeFactory
     {
-        private Dictionary<string, IShape> _shapes = new Dictionary<string, IShape>();
+        private Dictionary<string, IShape> _shapes = new();
         public int ShapeCount { get => _shapes.Count; }
 
         public IShape GetShape(string name)

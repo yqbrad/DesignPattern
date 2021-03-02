@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Mediator
+namespace Mediator.Sample1
 {
     public class ChatRoom: IChatRoom
     {

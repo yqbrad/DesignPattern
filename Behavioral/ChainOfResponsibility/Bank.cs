@@ -2,9 +2,6 @@
 {
     public class Bank: Account
     {
-        public Bank()
-        {
-            Value = 100;
-        }
+        public Bank() => Value = 100;
     }
 }

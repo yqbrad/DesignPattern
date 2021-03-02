@@ -2,9 +2,6 @@
 {
     public class Bitcoin: Account
     {
-        public Bitcoin()
-        {
-            Value = 300;
-        }
+        public Bitcoin() => Value = 300;
     }
 }

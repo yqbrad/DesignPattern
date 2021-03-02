@@ -1,4 +1,4 @@
-﻿namespace Mediator
+﻿namespace Mediator.Sample1
 {
     public interface IChatRoom
     {
